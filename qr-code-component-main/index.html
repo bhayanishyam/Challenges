@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @font-face {
+  font-family: Outfit;
+  src: url(./Outfit/Outfit-VariableFont_wght.ttf);
+}
+    body{
+      font-family: Outfit;
+      background-color: hsl(212, 45%, 89%);
+    }
+    .main{
+      width: 250px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      padding: 15px;
+      border-radius: 15px;
+      font-size: 15px;
+
+      /* display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px; */
+    }
+
+    .qr-img {
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    .title{
+      color: hsl(218, 44%, 22%);
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .main > p {
+      text-align: center;
+      color: hsl(220, 15%, 55%);
+      font-size: 15px;
+      margin: 10px;
+      font-weight: 400;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+    <img class="qr-img" src="./images/image-qr-code.png"></img>
+    
+      <h3 class="title">Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    
+  </div>
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Shyam Bhayani</a>.
+  </div>
+</body>
+</html>
